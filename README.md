@@ -12,6 +12,18 @@ For the original LÖVE2D, visit the official site at http://love2d.org. It's a v
 
 [Here there will be a quick rundown of how to work with the BrazMogu variant of LÖVE.]
 
+## Testing
+
+Tests are powered by the Busted suite (https://olivinelabs.com/busted) and custom code included in the test releases of BrazMogu LÖVE.
+
+### Engine Tests
+
+[Here there will be a rundown of how tests are laid out and how to execute tests for the engine code]
+
+### Game Tests
+
+[Here there will be a rundown of how tests are run and written in the game code]
+
 # Examples
 
 ## To Be Developed
