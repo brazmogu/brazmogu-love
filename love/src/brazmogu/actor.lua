@@ -1,0 +1,5 @@
+--- The Actor Class
+-- Actors represent objects and systems in the game. Each actor has independent behavior and is able
+-- to communicate with the game systems, the screen and other actors by means of messaging.
+-- Actors are made of Components that define the actor's behavior, as well as modify/define basic
+-- callbacks for said actors.

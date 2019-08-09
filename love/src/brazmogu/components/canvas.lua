@@ -1,0 +1,2 @@
+--- Canvas Component
+-- Represents a 2D drawing space with shapes. 

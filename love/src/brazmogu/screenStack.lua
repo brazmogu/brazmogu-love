@@ -1,0 +1,5 @@
+--- The Screen Stack Class
+-- The screen stack is the way that screens are organized in BrazMogu LÖVE, with each scene being
+-- instanced on the top of the stack.
+-- By manipulating properties of the screen, the game may know how to handle updating and rendering the
+-- elements contained in said screens.

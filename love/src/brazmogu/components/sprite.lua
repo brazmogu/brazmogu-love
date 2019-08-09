@@ -1,0 +1,2 @@
+--- Sprite Component
+-- Represents a graphic component attached to an actor.

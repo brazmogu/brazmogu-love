@@ -1,0 +1,2 @@
+--- Transform Component
+-- Represents the position and layout of an actor in the game space.

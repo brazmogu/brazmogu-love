@@ -1,0 +1,2 @@
+--- Randomizers and other random utility functions
+-- Randomizers can be defined as individual instances in order to provide controlled random results.

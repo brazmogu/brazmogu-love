@@ -1,0 +1,2 @@
+--- Collision Component
+-- Represents collision areas that may be attached to an actor.

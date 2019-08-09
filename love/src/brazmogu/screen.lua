@@ -1,0 +1,4 @@
+--- The Screen Class
+-- A screen is a generic abstraction for a game's environment. It may be a scene, a level, a menu...
+-- anything that contains logic and actors that the game is running.
+-- Scenes are instanced and handled in the Screen Stack, and may contain actors and components.
