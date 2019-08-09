@@ -10,7 +10,7 @@ For the original LÖVE2D, visit the official site at http://love2d.org. It's a v
 
 # Quickstart
 
-Here there will be a quick rundown of how to work with the BrazMogu variant of LÖVE.
+[Here there will be a quick rundown of how to work with the BrazMogu variant of LÖVE.]
 
 # Examples
 
@@ -18,8 +18,16 @@ Here there will be a quick rundown of how to work with the BrazMogu variant of L
 
 ### Pöng
 
+A PONG clone. Always a good place to start.
+
 ### Breaköut
+
+A Break-Out clone. Features collision handling and mild physics.
+
+### Sökoban
+
+A Sokoban clone. Features sprites and JSON loading.
 
 ### Game of Löve
 
-### Mölesweeper
+A Conway's Game of Life clone. Features listeners and persistence.
