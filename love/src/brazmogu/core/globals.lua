@@ -9,11 +9,19 @@ Lua = {
 -- Redefinition of require
 -- Perform a pcall and avoid abrupt failure in case the module is not found
 function require(module, ...)
-    local mod = pcall(Lua.require, module, ...)
-    if mod then
+    local ok, mod = pcall(Lua.require, module, ...)
+    if ok then
         return mod
     else
         INFO(string.format("Module '%s' could not be loaded - not found or in error.", module))
         return nil
     end
 end
+
+-- Global components and access points
+Global = {
+    legacy = Lua,
+    screenStack = require("brazmogu/screenStack")
+}
+
+return Global
