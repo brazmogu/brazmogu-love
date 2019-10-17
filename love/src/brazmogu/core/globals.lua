@@ -14,7 +14,7 @@ function require(module, ...)
         return mod
     else
         INFO(string.format("Module '%s' could not be loaded - not found or in error.", module))
-        return nil
+        return nil, mod
     end
 end
 
