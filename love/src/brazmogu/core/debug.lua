@@ -1,23 +1,24 @@
 --- Debug utilities
 
 --- Logs debug info; to be turned off on release builds
-function DEBUG(...)
-    print("[DEBUG]", ...)
+function DEBUG(format, ...)
+    print("[DEBUG]", string.format(format, ...))
 end
 
 --- Logs general information; included in release builds
-function INFO(...)
-    print("[INFO]", ...)
+function INFO(format, ...)
+    print("[INFO]", string.format(format, ...))
 end
 
 --- Logs warnings; included in release builds
-function WARNING(...)
-    print("[WARNING]", ...)
+function WARNING(format, ...)
+    print("[WARNING]", string.format(format, ...))
 end
 
 --- Logs errors and crashes (in development, it only halts)
-function ERROR(...)
-    print("[ERROR]", ...)
+function ERROR(format, ...)
+    print("[ERROR]", string.format(format, ...))
+    error(string.format(format, ...), 2)
 end
 
 --- Formats table data as a string
