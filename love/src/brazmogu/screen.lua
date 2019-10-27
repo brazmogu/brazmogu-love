@@ -17,7 +17,7 @@ function Screen.new(args)
     -- Initialize instance data
     local screen = {
         actors = {}, -- Actor list
-        components = {} -- Component list,
+        components = {}, -- Component list,
         transparent = args.transparent or false -- Transparency flag
     }
 
