@@ -34,10 +34,10 @@ function TABLE(T, indent, visited)
     local header = string.format("%s {", T)
 
     local innerData = {}
-    for k,v in pairs(T) do
+    for k, v in pairs(T) do
         local index = string.format("[%s]", tostring(k))
         if type(v) == "table" then
-            table.insert(innerData, string.format("%s: %s", index, TABLE(v, indent+1, visited)))
+            table.insert(innerData, string.format("%s: %s", index, TABLE(v, indent + 1, visited)))
         else
             table.insert(innerData, string.format("%s: %s", index, tostring(v)))
         end
